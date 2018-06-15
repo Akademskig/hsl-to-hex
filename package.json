@@ -1,9 +1,9 @@
 {
-  "name": "hsl-to-hex",
+  "name": "@akademskig/hsl-to-hex",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tap --cov test"
   },
   "author": "Akademskig",
   "license": "ISC",
@@ -16,5 +16,14 @@
   },
   "homepage": "https://github.com/Akademskig/hsl-to-hex#readme",
   "keywords": [],
-  "description": ""
+  "description": "Convert HSL colors to RGB colors in hex format.",
+  "dependencies": {
+    "hsl-to-rgb-for-reals": "^1.1.0"
+  },
+  "devDependencies": {
+    "tap": "^12.0.1"
+  },
+  "directories": {
+    "test": "test"
+  }
 }
